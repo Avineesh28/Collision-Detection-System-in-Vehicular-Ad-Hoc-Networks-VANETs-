@@ -11,8 +11,10 @@ In this project, we focus on collision detection in vehicles. To achieve this, w
 
 **Design Overview**
 
-The **impact sensor**, designed to detect collisions, functions as a collision signal sensor. In the simulation software Proteus, we emulate the impact sensor's behavior using the TouchPad tool, considering a collision when tapped. When a collision or flip occurs, a **buzzer** alerts the passengers that an emergency message has been sent. As the ADXL sensor is unavailable in the simulation tool, we used three potentiometers in parallel as an equivalent model. The **GSM module (GSM1)** is programmed to send messages, while **Arduino** processes sensor readings, identifies the current location, and sends this information to the GSM code, which then includes the sensor details in the emergency message.
 ![Circuitry](https://github.com/Avineesh28/Collision-Detection-System-in-Vehicular-Ad-Hoc-Networks-VANETs-/assets/79737929/8eedf11f-74ca-4a3c-843d-e36e423d3def)
+
+The **impact sensor**, designed to detect collisions, functions as a collision signal sensor. In the simulation software Proteus, we emulate the impact sensor's behavior using the TouchPad tool, considering a collision when tapped. When a collision or flip occurs, a **buzzer** alerts the passengers that an emergency message has been sent. As the ADXL sensor is unavailable in the simulation tool, we used three potentiometers in parallel as an equivalent model. The **GSM module (GSM1)** is programmed to send messages, while **Arduino** processes sensor readings, identifies the current location, and sends this information to the GSM code, which then includes the sensor details in the emergency message.
+
 ![Logic flow](https://github.com/Avineesh28/Collision-Detection-System-in-Vehicular-Ad-Hoc-Networks-VANETs-/assets/79737929/ff1b8822-37c9-4f9c-bae2-50d82e009ee6)
 
 **Implementation**
@@ -32,9 +34,13 @@ If the vehicle flips without a collision, the system uses GPS to identify the cu
 In this case, when a collision happens, and the vehicle flips, the system utilizes GPS to find the current location and GSM to send detailed emergency messages to the necessary services.
 
 **Testing Images**
+
 ![Testing Image 2](https://github.com/Avineesh28/Collision-Detection-System-in-Vehicular-Ad-Hoc-Networks-VANETs-/assets/79737929/61563777-a2c9-4dfc-bf40-3fd58c1a7aff)
+
 ![Testing Image](https://github.com/Avineesh28/Collision-Detection-System-in-Vehicular-Ad-Hoc-Networks-VANETs-/assets/79737929/6b35a985-3150-4a79-98c5-c501b88cd901)
+
 ![In-case of collision](https://github.com/Avineesh28/Collision-Detection-System-in-Vehicular-Ad-Hoc-Networks-VANETs-/assets/79737929/9c59bb3d-e5e0-46ca-bc53-9be43394ac05)
+
 ![Phone message](https://github.com/Avineesh28/Collision-Detection-System-in-Vehicular-Ad-Hoc-Networks-VANETs-/assets/79737929/d353a00d-2179-416c-b485-ecc596f0bd56)
 
 **Conclusion**
