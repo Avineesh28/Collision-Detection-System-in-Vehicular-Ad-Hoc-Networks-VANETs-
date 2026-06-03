@@ -1,5 +1,6 @@
 # Collision Detection System for Intelligent Vehicles
 
+
 ## Overview
 
 The **Collision Detection System** is an embedded systems and intelligent transportation project designed to **detect vehicular accidents in real time and automatically trigger emergency response mechanisms**. By integrating **impact sensing, vehicle orientation detection, GPS-based location tracking, and GSM communication**, the system significantly reduces emergency response time and improves post-accident survival rates.
