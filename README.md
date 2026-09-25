@@ -56,6 +56,7 @@ The system was simulated using **Proteus**:
 
 ---
 
+
 ## Collision Scenarios & Logic
 
 The system evaluates four distinct scenarios:
