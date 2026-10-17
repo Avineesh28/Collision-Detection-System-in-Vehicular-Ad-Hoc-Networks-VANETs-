@@ -119,3 +119,5 @@ This project addresses a **real-world vehicular safety challenge** by combining 
 `ADXL335`, `Impact Sensor`, `GPS Tracking`, `GSM Communication`,  
 `Vehicular Ad Hoc Networks (VANETs)`, `IoT`, `Real-Time Systems`,  
 `Emergency Response Systems`
+
+
