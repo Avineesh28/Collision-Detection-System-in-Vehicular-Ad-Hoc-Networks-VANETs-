@@ -1,4 +1,3 @@
-
 # Collision Detection System for Intelligent Vehicles
 
 ## Overview
