@@ -119,4 +119,3 @@ This project addresses a **real-world vehicular safety challenge** by combining 
 `Vehicular Ad Hoc Networks (VANETs)`, `IoT`, `Real-Time Systems`,  
 `Emergency Response Systems`
 
-
